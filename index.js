@@ -11,7 +11,7 @@ client.on("ready", () => {
 client.once("ready", () => {
   
   console.log('Status online')
-  client.user.setActivity({name: "Ich bin kuhl", type: "PLAYING"})
+  client.user.setActivity({name: "ML: Adventure", type: "PLAYING"})
 })
 
 client.on('message', msg => {
@@ -19,7 +19,7 @@ client.on('message', msg => {
     if (msg.author == client.user) {
       return;
     }
-    else if (msg.content === '!ping') {
+    else if (msg.content === '*ping') {
       msg.reply('Pong!');
     }
 });
