@@ -1,0 +1,2 @@
+# argus-bot
+Discord Bot
